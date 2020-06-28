@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'JameelNooriNastaleeq';
+    src: url("../fonts/Jameel%20Noori%20Nastaleeq.ttf") format('truetype');
+    unicode-range: U+0600-07FF;
+}
+
+html {
+    font-family: JameelNooriNastaleeq;
+}
+
+h1 {
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+}
