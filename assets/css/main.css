@@ -8,8 +8,26 @@ html {
     font-family: JameelNooriNastaleeq;
 }
 
+body {
+    background-image: url('../../imgs/nani-cover-cropped.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: #3e496b;
+
+    color: #dfba25;
+
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+a {
+    color: #ffe600;
+}
+
 h1 {
     font-size: 400%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
