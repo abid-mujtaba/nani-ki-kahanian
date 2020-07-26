@@ -9,17 +9,38 @@ html {
 }
 
 body {
-    background-image: url('../../imgs/nani-cover-cropped.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
     background-color: #3e496b;
 
     color: #dfba25;
 
     padding-left: 1.5em;
     padding-right: 1.5em;
+}
+
+div.columns {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100vh;
+}
+
+div.column {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+}
+
+div.left {
+    justify-content: flex-end;
+}
+
+div.center {
+    justify-content: center;
+}
+
+.column img {
+    object-fit: contain;
 }
 
 a {
@@ -49,4 +70,9 @@ h1 {
     font-size: 400%;
     display: flex;
     justify-content: flex-end;
+}
+
+p.urdu {
+    font-size: 150%;
+    direction: rtl;
 }
