@@ -26,6 +26,25 @@ a {
     color: #ffe600;
 }
 
+a.button {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 150%;
+    color: #ffe600;
+    background-color: #293047;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button:hover {
+    background-color: #0d1823;
+}
+
 h1 {
     font-size: 400%;
     display: flex;
