@@ -32,7 +32,7 @@ div.column {
 }
 
 div.left {
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 div.center {
@@ -41,6 +41,7 @@ div.center {
 
 .column img {
     object-fit: contain;
+    padding: 1em;
 }
 
 a {
